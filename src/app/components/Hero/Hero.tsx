@@ -49,7 +49,7 @@ const Hero = () => {
             <ContactLink href="https://github.com/sosesahakian">
               Checkout my Github
             </ContactLink>
-            <DownloadLink href="/Sose-CV-2024.pdf">
+            <DownloadLink href="/CV.pdf">
               <DownloadText>Download CV</DownloadText>
             </DownloadLink>
           </div>
