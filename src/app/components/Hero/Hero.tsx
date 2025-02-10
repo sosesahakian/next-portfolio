@@ -1,7 +1,19 @@
 "use client";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { Container, AnimationContainer, HeroTitle, TitleSpan, HeroSubText, HeroImage, ContactLink, DownloadLink, DownloadText, ImageContainer, MotionImage } from "./Hero.styled";
+import {
+  Container,
+  AnimationContainer,
+  HeroTitle,
+  TitleSpan,
+  HeroSubText,
+  HeroImage,
+  ContactLink,
+  DownloadLink,
+  DownloadText,
+  ImageContainer,
+  MotionImage,
+} from "./Hero.styled";
 
 const Hero = () => {
   return (
@@ -13,9 +25,7 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <HeroTitle>
-            <TitleSpan>
-              {`Hello, I'm`}
-            </TitleSpan>
+            <TitleSpan>{`Hello, I'm`}</TitleSpan>
             <br></br>
             <TypeAnimation
               sequence={[
@@ -32,20 +42,15 @@ const Hero = () => {
             />
           </HeroTitle>
           <HeroSubText>
-A frontend developer who is eager to learn and try new things
+            A frontend developer who is eager to learn and try new things
           </HeroSubText>
           <div>
-            <ContactLink
-              href="/#contact"
-            >
-              Hire Me
+            <ContactLink href="/#contact">Hire Me</ContactLink>
+            <ContactLink href="https://github.com/sosesahakian">
+              Checkout my Github
             </ContactLink>
-            <DownloadLink
-              href="/Sose-CV-2024.pdf"
-            >
-              <DownloadText >
-                Download CV
-              </DownloadText>
+            <DownloadLink href="/Sose-CV-2024.pdf">
+              <DownloadText>Download CV</DownloadText>
             </DownloadLink>
           </div>
         </AnimationContainer>

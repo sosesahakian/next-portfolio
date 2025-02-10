@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
           name="Next"
           isSelected={tag === "Next"}
         />
-          <ProjectTag
+        <ProjectTag
           onClick={() => handleTagChange("Tailwind CSS")}
           name="Tailwind CSS"
           isSelected={tag === "Tailwind CSS"}
@@ -64,7 +64,11 @@ const Projects: React.FC = () => {
           name="Framer Motion"
           isSelected={tag === "Framer Motion"}
         />
-
+        <ProjectTag
+          onClick={() => handleTagChange("React Native")}
+          name="React Native"
+          isSelected={tag === "React Native"}
+        />
       </TagsContainer>
       <ProjectList ref={ref}>
         {filteredProjects?.map((project: Project, index: number) => (

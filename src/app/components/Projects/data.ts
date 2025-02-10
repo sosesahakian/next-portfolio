@@ -54,4 +54,12 @@ export const data: Project[] = [
     gitUrl: "https://github.com/sosesahakian/Uber",
     previewUrl: "https://uber-rho-red.vercel.app",
   },
+  {
+    id: 6,
+    title: "Weather App",
+    description: "Made with React Native and Tailwind",
+    image: "/images/default.png",
+    tag: ["All", "React Native", "Tailwind CSS"],
+    gitUrl: "https://github.com/sosesahakian/weather-app",
+  },
 ];
