@@ -70,4 +70,13 @@ export const data: Project[] = [
     tag: ["All", "React", "Tailwind CSS"],
     gitUrl: "https://github.com/sosesahakian/component-library",
   },
+  {
+    id: 8,
+    title: "Job Application Builder",
+    description:
+      "Made with React, Typescript Supabase, Cloudinary, OpenAI and Tailwind",
+    image: "/images/default.png",
+    tag: ["All", "React", "Tailwind CSS", "AI", "Node.js"],
+    //gitUrl: "https://github.com/sosesahakian/component-library",
+  },
 ];
