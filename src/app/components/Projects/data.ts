@@ -62,4 +62,12 @@ export const data: Project[] = [
     tag: ["All", "React Native", "Tailwind CSS"],
     gitUrl: "https://github.com/sosesahakian/weather-app",
   },
+  {
+    id: 7,
+    title: "React Component Library",
+    description: "Made with React, Typescript and Storybook",
+    image: "/images/default.png",
+    tag: ["All", "React", "Tailwind CSS"],
+    gitUrl: "https://github.com/sosesahakian/component-library",
+  },
 ];
