@@ -69,12 +69,13 @@ export const data: Project[] = [
     image: "/images/default.png",
     tag: ["All", "React", "Tailwind CSS"],
     gitUrl: "https://github.com/sosesahakian/component-library",
+    previewUrl: "https://component-library-pearl-two.vercel.app/",
   },
   {
     id: 8,
     title: "Job Application Builder",
     description:
-      "Made with React, Typescript Supabase, Cloudinary, OpenAI and Tailwind",
+      "Made with React, Typescript, Supabase, Cloudinary, OpenAI and Tailwind",
     image: "/images/default.png",
     tag: ["All", "React", "Tailwind CSS", "AI", "Node.js"],
     //gitUrl: "https://github.com/sosesahakian/component-library",
